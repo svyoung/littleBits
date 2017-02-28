@@ -1,0 +1,10 @@
+[
+   {
+      "bitId": 2,
+      "content": "What is littleBits? It's my own personal Twitter... which no one will read but me! Wee! Done in NodeJS, ExpressJS, ReactJS, and Socket.io!"
+   },
+   {
+      "bitId": 1,
+      "content": "So this would be my first bit. Let's test it out. Maximum of 20 characters. What shall I say? Maybe.. I've finally finished this project!!!"
+   }
+]
