@@ -36,13 +36,11 @@ io.on('connection', function(socket){
         var response = {
             text: data.bittext
         };
-
-        if(data.passcode == ppc.pc) {
-            response.status = true;
-            bits.unshift(newBit);
-            var newbits = JSON.stringify(bits, null, 3);
-            fs.writeFileSync('./bits.json', newbits, null);
-        }
+        
+        // code to confirm passcode match
+        // code to add new bits to existing bits.json
+        // code to write into bits.json file
+        
         io.emit('receive bits', response);
     });
 });
